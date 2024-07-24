@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Customer X", "url": "ws://socket-1.customer-x.io" },
+  { "id": 2, "name": "Customer Y", "url": "ws://socket-1.customer-y.io" },
+  { "id": 3, "name": "Customer Z", "url": "ws://socket-1.customer-z.io" }
+]

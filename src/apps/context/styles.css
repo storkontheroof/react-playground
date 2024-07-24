@@ -1,0 +1,35 @@
+:root {
+  --text-color-main: #333;
+  --text-color-success: green;
+  --text-color-error: red;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: monospace;
+  font-size: 1rem;
+  color: var(--text-color-main);
+}
+
+dt {
+  float: left;
+  clear: left;
+  width: 150px;
+  color: green;
+}
+
+dd::before {
+  content: ": ";
+  color: var(--text-color-main);
+}
+
+dd.connected {
+  color: var(--text-color-success);
+}
+
+dd.disconnected {
+  color: var(--text-color-error);
+}
